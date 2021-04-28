@@ -1,0 +1,19 @@
+.roaster-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+}
+
+.roaster-list-item div{
+    cursor: pointer;
+    height: 10px;
+    width: 50px;
+    margin-bottom: 20px;
+    display: inline;
+    vertical-align: top;
+}
+
+.roaster-list:last-child {
+    margin-bottom: 0;
+}
